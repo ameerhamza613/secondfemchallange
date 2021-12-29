@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  background-color: hsl(225, 100%, 94%);
+}
+html {
+  font-size: 62.5%;
+}
+.card {
+  width: 33rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.2rem;
+  background-color: white;
+}
+.card-img {
+  max-width: 100%;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.special {
+  padding: 2rem;
+}
+.card-headline {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.card-summary {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #999;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  margin-bottom: 2rem;
+  background-color: hsl(225, 100%, 98%);
+}
+.sec-icon {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.price-sec {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+.price-plan {
+  font-size: 1.6rem;
+}
+.price-pr {
+  font-size: 1.4rem;
+  color: #999;
+}
+.price-link {
+  font-size: 1.2rem;
+}
+.action-btn {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 1.2rem;
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.cancel-link {
+  display: block;
+  font-size: 1.2rem;
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+}
